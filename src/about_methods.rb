@@ -11,7 +11,7 @@ class AboutMethods < Neo::Koan
   end
 
   def test_calling_global_methods_without_parentheses
-    result = my_global_method 2, 3
+    result = my_global_method(2, 3)
     assert_equal __(5), result
   end
 

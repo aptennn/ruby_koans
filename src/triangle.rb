@@ -20,6 +20,9 @@ def triangle(a, b, c)
   fail TriangleError if (a+b) <= c
   sides = [a, b, c].uniq
   [nil, :equilateral, :isosceles, :scalene][sides.size]
+
+
+
   #++
 end
 
